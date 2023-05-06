@@ -15,7 +15,7 @@ with col1:
     img1_file = st.file_uploader("Upload Image 1", type=["jpg", "jpeg", "png"])
     if img1_file is not None:
         img1 = Image.open(img1_file)
-        img1 = img1.resize((int(img1.size[0] * 0.5), int(img1.size[1] * 0.5)))
+        img1 = img1.resize((400,400))
         st.image(img1, use_column_width=True)
 
 # Ask user to upload the second image and display it in the second column
@@ -24,5 +24,5 @@ with col2:
     img2_file = st.file_uploader("Upload Image 2", type=["jpg", "jpeg", "png"])
     if img2_file is not None:
         img2 = Image.open(img2_file)
-        img2 = img2.resize((int(img2.size[0] * 0.5), int(img2.size[1] * 0.5)))
+        img2 = img2.resize((400,400))
         st.image(img2, use_column_width=True)
