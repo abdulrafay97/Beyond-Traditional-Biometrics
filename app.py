@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-st.set_page_config(page_title="Image Comparison", page_icon=":eyes:", layout="wide")
+st.set_page_config(page_title="Image Comparison", page_icon=":lips:", layout="wide")
 
 # Add a title to the app
 st.title("Image Comparison")
