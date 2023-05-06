@@ -12,11 +12,11 @@ col1, col2 = st.beta_columns(2)
 # Load the first image and display it in the first column
 with col1:
     st.header("Image 1")
-    img1 = Image.open("path/to/image1.jpg")
+    img1 = Image.open("./10_1.jpg")
     st.image(img1, use_column_width=True)
 
 # Load the second image and display it in the second column
 with col2:
     st.header("Image 2")
-    img2 = Image.open("path/to/image2.jpg")
+    img2 = Image.open("./21_1.jpg")
     st.image(img2, use_column_width=True)
